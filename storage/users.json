@@ -1,0 +1,30 @@
+[
+    {
+        "first_name": null,
+        "last_name": null,
+        "username": null,
+        "email": null,
+        "password": "$2y$10$Ks.3HDbe.PcF3oEYwJpHYuKop7x9EkFlvhlYknGjlK9WHQXL9cMV2"
+    },
+    {
+        "first_name": "Lamar",
+        "last_name": "Gill",
+        "username": "rybiluzuru",
+        "email": "nexexos@mailinator.com",
+        "password": "$2y$10$PlizvqEAWW9cbC4SCfZA7O538aDxQnvBDAqVHcDdc7HnXQgS4x8YW"
+    },
+    {
+        "first_name": "Caryn",
+        "last_name": "Bryant",
+        "username": "rylukaroh",
+        "email": "funabap@mailinator.com",
+        "password": "$2y$10$Uju3mROaIg.1aWVn8MHM5.OxMwK3hd\/ATpD4AVCbpvOMapllUw5PG"
+    },
+    {
+        "first_name": "ibrahime",
+        "last_name": "alaa",
+        "username": "ibrahime",
+        "email": "ebrahime@gmail.com",
+        "password": "$2y$10$WMro3hVQJY4nAXfJ6TNo3ehfaqHvZulcXcrsWVAcTZPVAj4mkxY4K"
+    }
+]
