@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+
+    <!-- مكتبتي-->
+    <nav>
+        <h1>مكتبه الكتب</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- التسجيل لاول مره -->
+    <main>
+        <div>
+            <h2>انشاء حساب</h2>
+
+            <form action="#" method="POST">   <!-- php خد بالك لما نيجي نشتغل باك -->
+
+
+                <!-- نحط تيكست الاسم ب for جوا ال label -->
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+                <!--والايميل برده هنحطه جوا label ونشوف الشغل زي الاسم بالظبط -->
+                <div>
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <!-- كلمه السر هي هياها زي التيكست  -->
+                <div>
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                        
+                    >
+                </div>
+
+                <!-- تاكيد كلمهالسر  -->
+                <div>
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input
+                        type="password"                        
+                        name="confirm_password"
+                        placeholder="Confirm your password"
+                        required
+                        
+                    >
+                </div>
+
+                <!-- نعمل بقا نص الاختيار بتاع الراديو يختار واحد بس اللي هو الدايره ونعرف هو ذكر ولا مونث -->
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <!-- نعمل بقا المربع بتاع الشروط ومش هيقبل غير لما يقول انه موافق -->
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the Terms and Conditions</label>
+                </div>
+
+                <!-- زرار  التسجيل بقا يضغط يبعت البيانات -->
+                <div>
+                    <button type="submit">Create Account</button>
+                </div>
+
+            </form>
+
+            <!-- وف الاخر نقوله لو عندك اك روح سجل يبويا ونبعته ع اللجين -->
+            <div>
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© كتاب حياتي اصدر سنه 2001</p>
+    </footer>
+
+</body>
+</html>

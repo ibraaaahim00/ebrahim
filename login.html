@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<!--  الجزء اللي فوق داث ثابت -->
+<!-- ودا هنقول المختويات بتاعتنا كلها -->
+<nav>
+    <h1>مكتبه الكتب</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+    </ul>
+</nav>
+
+<!-- الفورم بتاعتنا بتاعت اللوجين-->
+<main>
+    <div>
+        <h2> Login</h2>
+
+        <form action="#" method="POST">     <!--الجزء بتاع ال php    -->
+
+            <!-- الايميل بنعمله بالايبل -->
+            <div>
+                <label for="email">Email:</label>
+                <input
+                        type="email"
+                        name="email"
+                        placeholder="email"
+                        required
+                >
+            </div>
+
+            <!-- كلمه السر  -->
+            <div>
+                <label for="password">Password:</label>
+                <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                >
+            </div>
+
+            <!-- الزرار بنقوله button -->
+            <div>
+                <button type="submit">Login</button>
+            </div>
+
+        </form>
+
+        <!-- ونقوله لو مش ععدك ايميل روح اعمل واحد  ونبعته ع صفحع الريجستر -->
+        <div>
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+
+    </div>
+</main>
+
+<!-- اخرالصفحه-->
+<footer>
+    <p>اخر الصفحه يدولي</p>
+</footer>
+
+</body>
+</html>
